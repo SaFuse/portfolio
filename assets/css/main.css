@@ -478,8 +478,9 @@
 
 	body, input, textarea, select {
 		/*font-family: "Source Sans Pro", "sans-serif";*/
-		font-family: "Lato", "sans-serif";
+		/*font-family: "Lato", "sans-serif";*/
 		/*font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";*/
+		font-family :Quicksand, sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -1636,7 +1637,7 @@
 				transform: translate(-50%,-50%);
 				margin:0;
 				padding:0;
-				color: white;/*文字は白に*/
+				color: white;
 			}
 
 			.gallery.inactive article.from-right {
@@ -1813,7 +1814,8 @@
 
 			.main.style1 h2 {
 				/*font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";*/
-				font-family: "Lato", "sans-serif";
+				/*font-family: "Lato", "sans-serif";*/
+				font-family :Quicksand, sans-serif;
 				font-size: 4.25em;
 				line-height: 1em;
 			}
