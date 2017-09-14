@@ -1967,6 +1967,9 @@
 			.main.style2 .content {
 				width: 40%;
 			}
+			.main.style2 .contenta {
+				width: 40%;
+			}
 
 		}
 
@@ -1975,12 +1978,18 @@
 			.main.style2 .content {
 				width: 50%;
 			}
+			.main.style2 .contenta {
+				width: 50%;
+			}
 
 		}
 
 		@media screen and (max-width: 1000px) {
 
 			.main.style2 .content {
+				width: 60%;
+			}
+			.main.style2 .contenta {
 				width: 60%;
 			}
 
@@ -2021,6 +2030,15 @@
 					-ms-transform: none;
 					transform: none;
 				}
+				.main.style2 .contenta {
+					width: 100%;
+					max-width: 100%;
+					text-align: center;
+					-moz-transform: none;
+					-webkit-transform: none;
+					-ms-transform: none;
+					transform: none;
+				}
 
 			.main.style3 {
 				text-align: center;
@@ -2032,6 +2050,9 @@
 		@media screen and (max-width: 480px) {
 
 			.main > .content {
+				max-width: calc(100% - 1.5em);
+			}
+			.main > .contenta {
 				max-width: calc(100% - 1.5em);
 			}
 
