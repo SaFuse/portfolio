@@ -1868,7 +1868,7 @@
 				width: 35%;
 				margin: 0;
 			}
-			.main.style2 .contenta {
+			.main.style2 > .contenta {
 				-moz-transition: -moz-transform 1s ease;
 				-webkit-transition: -webkit-transform 1s ease;
 				-ms-transition: -ms-transform 1s ease;
