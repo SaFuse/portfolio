@@ -1878,8 +1878,8 @@
 				-ms-transform: translateZ(0);
 				transform: translateZ(0);
 				position: absolute;
-				top:1px;
-				width: 35%;
+				top: 1px;
+				width: 100%;
 				margin: 0;
 			}
 
@@ -1911,6 +1911,12 @@
 			}
 
 			.main.style2.inactive.right > .content {
+				-moz-transform: translateX(100%);
+				-webkit-transform: translateX(100%);
+				-ms-transform: translateX(100%);
+				transform: translateX(100%);
+			}
+			.main.style2.inactive.right > .contenta {
 				-moz-transform: translateX(100%);
 				-webkit-transform: translateX(100%);
 				-ms-transform: translateX(100%);
