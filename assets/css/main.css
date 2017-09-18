@@ -615,7 +615,9 @@
 		}
 
 		.box.stylea {
-			padding: 3.5em 2.5em 3.5em 2.5em;
+			padding: 1em 2.5em 1em 2.5em;
+					/*padding: 1em 1em 1em 1em;*/
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1925,7 +1927,7 @@
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 1em 1em 1em 1em;
 		}
 
 			.main.style3 .content > header {
@@ -2030,7 +2032,7 @@
 				.main.style2 .content {
 					width: 100%;
 					max-width: 100%;
-					text-align: center;
+					text-align: left;
 					-moz-transform: none;
 					-webkit-transform: none;
 					-ms-transform: none;
@@ -2039,7 +2041,7 @@
 				.main.style2 .contenta {
 					width: 100%;
 					max-width: 100%;
-					text-align: center;
+					text-align: left;
 					-moz-transform: none;
 					-webkit-transform: none;
 					-ms-transform: none;
@@ -2048,7 +2050,7 @@
 
 			.main.style3 {
 				text-align: center;
-				padding: 3em 10px 3em 10px;
+				padding: 1em 10px 1em 10px;
 			}
 
 		}
@@ -2224,3 +2226,10 @@
 			}
 
 		}
+
+		div.section ul, div.section ol {
+			margin:0.5em 1em 0.5em 50px;
+			font-size:100%;
+			line-height:130%;
+		}
+		ol li {list-style: decimal}
