@@ -2176,7 +2176,7 @@
 
 /* One */
 
-	#one {
+	#aboutme {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2185,12 +2185,13 @@
 
 /* Two */
 
-	#two {
+	#interests {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+	
 
 /* Contact */
 
@@ -2226,9 +2227,12 @@
 
 		}
 
-		div.section ul, div.section ol {
+/*		div.section ul, div.section ol {
 			margin:0.1em 1em 0.5em 50px;
 			font-size:100%;
 			line-height:130%;
 		}
-		ol li {list-style: decimal}
+*/	
+ol li {
+	list-style: decimal;
+margin-left: 1em;}
