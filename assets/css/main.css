@@ -1790,6 +1790,7 @@
 		overflow-x: hidden;
 	}
 
+
 		.main > .content {
 			width: 45em;
 			max-width: calc(100% - 4em);
@@ -1968,6 +1969,8 @@
 		body.is-touch .main {
 			background-attachment: scroll !important;
 		}
+
+
 
 		@media screen and (max-width: 1920px) {
 
@@ -2192,6 +2195,7 @@
 		background-position: top left, center center;
 	}
 	
+	
 
 /* Contact */
 
@@ -2235,4 +2239,6 @@
 */	
 ol li {
 	list-style: decimal;
+
+
 margin-left: 1em;}
