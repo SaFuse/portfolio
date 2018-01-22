@@ -1265,6 +1265,20 @@
 
 /* Gallery */
 
+	.gallerytest {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		width: 45em;
+		max-width: 100%;
+		margin: 0 auto 2em auto;
+	}
+
 	.gallery {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1280,6 +1294,19 @@
 	}
 
 		.gallery article {
+			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
+			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
+			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
+			transition: transform 1s ease, opacity 1s ease;
+			-moz-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+			width: 50%;
+			position: relative;
+			opacity: 1.0;
+		}
+		.gallerytest article {
 			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
@@ -1629,6 +1656,7 @@
 				-webkit-transform: translateX(-14em);
 				-ms-transform: translateX(-14em);
 				transform: translateX(-14em);
+				/*initial position where the each panel comes*/
 			}
 			.gallery p {
 				position: absolute;
@@ -1643,6 +1671,22 @@
 				margin:0;
 				padding:0;
 				color: white;
+				/*character definition*/
+			}
+			.gallerytest p {
+				position: absolute;
+				font-weight: bold; 
+				font-size: 2em;
+				font-family :Quicksand, sans-serif;
+				top: 50%;
+				left: 50%;
+				-ms-transform: translate(-50%,-50%);
+				-webkit-transform: translate(-50%,-50%);
+				transform: translate(-50%,-50%);
+				margin:0;
+				padding:0;
+				color: white;
+				/*character definition*/
 			}
 
 			.gallery.inactive article.from-right {
@@ -2171,6 +2215,13 @@
 
 	#intro {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+	#introawards {
+		background: url("images/overlay.png"), url("../../images/link/awardsbg.jpeg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
