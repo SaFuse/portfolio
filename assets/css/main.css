@@ -1654,8 +1654,18 @@
 		.gallery.inactive article {
 			opacity: 0;
 		}
+		.gallerytest.inactive article {
+			opacity: 0;
+		}
 
 			.gallery.inactive article.from-left {
+				-moz-transform: translateX(-14em);
+				-webkit-transform: translateX(-14em);
+				-ms-transform: translateX(-14em);
+				transform: translateX(-14em);
+				/*initial position where the each panel comes*/
+			}
+			.gallerytest.inactive article.from-left {
 				-moz-transform: translateX(-14em);
 				-webkit-transform: translateX(-14em);
 				-ms-transform: translateX(-14em);
